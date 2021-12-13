@@ -3,39 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>Test side</title>
+        <link rel="stylesheet" href="testingside.css">
     </head>
-    
-    <style>
-        body {
-            background-color: rgb(255, 255, 255);
-            font-size: large;
-        }
-        table th, td{
-            border: 1px solid black;
-        }
-        p{
-            color: chartreuse;
-            font-size: 30px;
-        }
-
-
-    </style>
+<!--Html greie du starter med-->
 
     <body>
-    
-        <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Testing test test</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis distinctio suscipit aut reiciendis maxime rem animi dolorum quis odio optio veniam veritatis illum, eius sint pariatur consequuntur molestiae esse nihil?</p>
-        <br>
+    <!--Overskriften-->
+        <h1>Testing test test</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore amet architecto itaque perferendis error, alias, illum recusandae iusto, voluptatum harum hic commodi reprehenderit necessitatibus dicta delectus aut deserunt at sed?</p>
+            <br>
 
 
-        <div class="menu">
-            
+<!--Google link-->
+        <div class="menu" id="topmenu">
+            <a href="https://www.Google.com">Google.com</a>
         </div>
-
-
-
-
-        
+            <br>
+            <br>
+    <!--Navn insending skjema-->
         <form>
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" value="Testing"><br>
@@ -44,7 +29,7 @@
             <input type="submit" value="Submit">    
         </form>
 
-
+    <!-- Dette er en "hva er best" type innsending -->
         <form>
             <p>Hva er best</p>
             <input type="radio" id="pepsi" name="fav_drikke" value="Pepsi">
@@ -56,7 +41,8 @@
             <input type="submit" value="Send inn">    
         </form>
         <br> <br>
-        <table>
+    <!-- Dette er en Tabell -->
+         <center> <table>
             <tr>
                 <th>Tabell 1</th>
                 <th>Tabell 2</th>
@@ -73,8 +59,41 @@
                 <td>Testing 3</td>
             </tr>
         </table>
+        </center>
+    <!-- Liste som er punktert og uten punkt -->
+        <li>
+            <ol>List1</ol>
+            <ol>List 2</ol>
+            <ol>List 3</ol>
+        </li>
 
+        <li>
+            <ul>List 1+</ul>
+            <ul>List 2+</ul>
+            <ul>List 3+</ul>
+        </li>
+        <br>
 
+    <!-- en til hva er best type innsending -->
+        <form>
+            <p>Hvem er best</p>
+            <input type="radio" id="christer" name="christer" value="christer">
+            <label for="christer">christer</label><br>
+            <input type="radio" id="steffen" name="steffen" value="steffen">
+            <label for="steffen">steffen</label><br>
+            <input type="radio" id="asgeir" name="asgeir" value="asgeir">
+            <label for="asgeir">asgeir</label><br><br>
+            <input type="submit" value="send inn">
+        </form>
+        
     </body>
 
     </html>
+
+    <!-- et fint bilde av jotaro fra jojo -->
+    <img src="bilde/jotaro.gif" alt="Jotaro" title="Jotaro" width="200" height="300">        
+    
+
+    <center><p>Copyright, Christer 2021©</p></center>
+    
+    
