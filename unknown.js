@@ -1,8 +1,8 @@
 
-console.log("Hello world");
+console.print("Hello world");
 
 
-var rightAnswer = "500"
+/*var rightAnswer = "500"
 
 var userAnswer = prompt("Hva er 450 + 50");
 
