@@ -3,5 +3,5 @@
 navn = input("Hva heiter du?")
 alder = input("Hvor gammel er du?")
 
-print("Hei",navn,"Du er",alder,"år gammal.")
+print("Hei",navn,"du er",alder,"år gammel.")
 
