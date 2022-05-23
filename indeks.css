@@ -5,7 +5,7 @@
         }
         h1{
             text-align: center;
-            color: black;
+            color: rgb(255, 255, 255);
         }
         p{
             font-size: 20;
@@ -23,8 +23,27 @@
             
         }
         .topnav{
-            background-color: #333;
+            background-color: transparent;
             overflow: hidden;
          }
+         body{
+             background-image: url("https://cdn.discordapp.com/attachments/654801600761823244/978222004647919636/7225449.png");
+             height: 100%;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size:cover;
+             margin-bottom: 50%;
+             text-align:center;
+             
+         }
+         p{
+             color: rgb(255, 255, 255);
+             border: 10cm;
+             -webkit-text-stroke: 0.mm black;
+         }
+         
+             
+         
       
         
